@@ -10,11 +10,9 @@ This repository contains implementations of deep neural networks using three dif
 
 ## Contents
 
-1. `neural_network_jax.py`: This script demonstrates how to implement a deep neural network using the JAX library. JAX is a numerical computing library that combines NumPy, automatic differentiation, and GPU/TPU acceleration. The script includes functions for initializing network parameters, defining the ReLU and softmax activation functions, predicting output, calculating accuracy, and updating parameters. It also includes code for loading the MNIST dataset and training the model.
+1. `nn_from_scratch_JAX.py`: This script demonstrates how to implement a deep neural network using the JAX library. JAX is a numerical computing library that combines NumPy, automatic differentiation, and GPU/TPU acceleration. The script includes functions for initializing network parameters, defining the ReLU and softmax activation functions, predicting output, calculating accuracy, and updating parameters. It also includes code for loading the MNIST dataset and training the model.
 
-2. `neural_network_tf_sequential.py`: This script shows the implementation of a deep neural network using the Sequential API of TensorFlow. The Sequential API allows you to create models layer-by-layer in a step-by-step fashion. The script includes code for loading the MNIST dataset, preprocessing the data, defining the model architecture, compiling the model, and training the model.
+2. `tensorflow_sequential.py`: This script shows the implementation of a deep neural network using the Sequential API of TensorFlow. The Sequential API allows you to create models layer-by-layer in a step-by-step fashion. The script includes code for loading the MNIST dataset, preprocessing the data, defining the model architecture, compiling the model, and training the model.
 
-3. `neural_network_tf_functional.py`: This script contains an implementation of a deep neural network using the Functional API of TensorFlow. The Functional API is a way to create models that are more flexible than the Sequential API. It can handle models with non-linear topology, shared layers, and even multiple inputs or outputs. The script includes code for loading the MNIST dataset, preprocessing the data, defining the model architecture using the Functional API, compiling the model, and training the model.
-
-
+3. `tensorflow_functional.py`: This script contains an implementation of a deep neural network using the Functional API of TensorFlow. The Functional API is a way to create models that are more flexible than the Sequential API. It can handle models with non-linear topology, shared layers, and even multiple inputs or outputs. The script includes code for loading the MNIST dataset, preprocessing the data, defining the model architecture using the Functional API, compiling the model, and training the model.
 
